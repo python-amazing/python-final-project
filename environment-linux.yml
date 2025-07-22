@@ -143,5 +143,5 @@ dependencies:
     - typeshed-client
     - typing-inspection
     - tzdata
-    - torchgeo==0.5.2
+    - torchgeo
     - docstring-parser

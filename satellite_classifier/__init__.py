@@ -1,6 +1,6 @@
 from .models import load_pretrained_models
 from .classifier import classify_satellite_image
-from .visualization import visualize_comparison
+from .widgets import *  
 from .export import export_results
 from .constants import DEFAULT_CLASS_NAMES, PREPROCESSORS, IMAGENET_EARTH_OBS_INDICES
 
@@ -16,6 +16,8 @@ __all__ = [
     "load_pretrained_models",
     "classify_satellite_image",
     "visualize_comparison",
+    "create_model_selector",
+    "quick_load_models",
     "export_results",
     "DEFAULT_CLASS_NAMES",
     "PREPROCESSORS",

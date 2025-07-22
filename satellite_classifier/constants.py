@@ -1,6 +1,52 @@
 import torch
 from torchvision import transforms
 
+# Task definitions with their corresponding models
+from typing import Dict, List, Any
+
+TASK_MODELS: Dict[str, Any] = {
+    "Classification": {
+        "description": "Image classification tasks.",
+        "datasets": ["EuroSAT", "BigEarthNet"],
+        "sensors": {
+            "Sensor-Agnostic": {
+                "description": "Models pre-trained on diverse remote sensing data.",
+                "models": {
+                    "ResNet18": ["random", "imagenet", "ssl4eo_s12_rgb_moco", "ssl4eo_s12_all_moco"],
+                    "ResNet50": ["random", "imagenet", "ssl4eo_s12_rgb_moco", "ssl4eo_s12_all_dino"],
+                    "ViT_Small_Patch16": ["random", "imagenet", "ssl4eo_s12_rgb_moco"],
+                }
+            },
+            "Sentinel-1 (SAR)": {
+                "description": "Models pre-trained on Sentinel-1 Synthetic Aperture Radar data.",
+                "models": {
+                    "ResNet50": ["ssl4eo_s1_all_moco"],
+                }
+            },
+            "Sentinel-2 (Optical)": {
+                "description": "Models pre-trained on Sentinel-2 optical imagery.",
+                "models": {
+                    "ResNet18": ["ssl4eo_s2_rgb_moco", "ssl4eo_s2_all_moco", "ssl4eo_s2_rgb_seco"],
+                    "ResNet50": ["ssl4eo_s2_rgb_moco", "ssl4eo_s2_all_dino", "ssl4eo_s2_rgb_seco"],
+                    "ViT_Small_Patch16": ["ssl4eo_s2_all_dino", "ssl4eo_s2_all_moco", "satlas_rgb"],
+                }
+            },
+            "Landsat": {
+                "description": "Models pre-trained on Landsat optical imagery.",
+                "models": {
+                    "ResNet50": ["ssl4eo_landsat7_l2_all_moco"],
+                }
+            },
+            "NAIP": {
+                "description": "Models pre-trained on NAIP imagery.",
+                "models": {
+                    "Swin_V2_B": ["satlas_rgb"],
+                }
+            }
+        }
+    },
+}
+
 # Define class names for different model types
 DEFAULT_CLASS_NAMES = {
     # EuroSAT classes (10 land cover types)

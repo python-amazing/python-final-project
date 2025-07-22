@@ -1,3 +1,7 @@
+"""
+Widgets for visualizing satellite image classification results.
+"""
+
 import matplotlib.pyplot as plt
 import numpy as np
 from PIL import Image
