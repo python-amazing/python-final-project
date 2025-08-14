@@ -18,6 +18,7 @@ dependencies:
   - tqdm
   - jupyter
   - ipykernel
+  - ipywidgets
   - jupyterlab
   - notebook
   - comm

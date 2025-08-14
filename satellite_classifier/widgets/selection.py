@@ -7,10 +7,9 @@ import ipywidgets as widgets
 from IPython.display import display, clear_output
 from typing import Dict, List, Any, Optional
 
-# Assuming these are defined in your project
 from satellite_classifier.constants import TASK_MODELS
 from satellite_classifier.models import get_available_models, load_pretrained_models
-import time # For sleep in progress bar
+import time
 
 class TorchGeoModelSelector:
     """Interactive widget for selecting and loading TorchGeo models based on tasks."""

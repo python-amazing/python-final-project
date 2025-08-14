@@ -12,15 +12,9 @@ TASK_MODELS: Dict[str, Any] = {
             "Sensor-Agnostic": {
                 "description": "Models pre-trained on diverse remote sensing data.",
                 "models": {
-                    "ResNet18": ["random", "imagenet", "ssl4eo_s12_rgb_moco", "ssl4eo_s12_all_moco"],
+                    "CopernicusFM": ["random", "imagenet", "ssl4eo_s12_rgb_moco", "ssl4eo_s12_all_dino"],
+                    "DOFA": ["random", "imagenet", "ssl4eo_s12_rgb_moco", "ssl4eo_s12_all_dino"],
                     "ResNet50": ["random", "imagenet", "ssl4eo_s12_rgb_moco", "ssl4eo_s12_all_dino"],
-                    "ViT_Small_Patch16": ["random", "imagenet", "ssl4eo_s12_rgb_moco"],
-                }
-            },
-            "Sentinel-1 (SAR)": {
-                "description": "Models pre-trained on Sentinel-1 Synthetic Aperture Radar data.",
-                "models": {
-                    "ResNet50": ["ssl4eo_s1_all_moco"],
                 }
             },
             "Sentinel-2 (Optical)": {
@@ -37,12 +31,6 @@ TASK_MODELS: Dict[str, Any] = {
                     "ResNet50": ["ssl4eo_landsat7_l2_all_moco"],
                 }
             },
-            "NAIP": {
-                "description": "Models pre-trained on NAIP imagery.",
-                "models": {
-                    "Swin_V2_B": ["satlas_rgb"],
-                }
-            }
         }
     },
 }
