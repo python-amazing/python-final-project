@@ -6,6 +6,8 @@ dependencies:
   - python=3.9
   - pytorch
   - torchvision
+  - albumentations
+  - transformers
   - numpy
   - scipy
   - pandas
