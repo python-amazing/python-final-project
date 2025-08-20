@@ -57,7 +57,8 @@ streamlit run Home.py
 
 Example notebooks are provided in the notebooks directory
 
-- satellite_classification_demo.ipynb: Basic classification workflow
+- satellite_classification_demo.ipynb: Classification workflow
+- semantic_segmentation_demo.ipynb: Segmentation workflow
 - example_use_cases.ipynb: Common use case examples
 - user_interaction_flow.ipynb: Interface navigation guide
 
@@ -74,3 +75,17 @@ Example notebooks are provided in the notebooks directory
 ## Contributing
 
 Contributions are welcome ! Please feel free to submit a pull request.
+
+## Developer
+
+**Bruna Cândido**
+LinkedIn: [Bruna Strack Cândido](https://www.linkedin.com/in/brunascandido/)
+
+**Dastan Nurbekuly**    
+LinkedIn: [Dastan Nurbekuly](https://www.linkedin.com/in/dastan-nurbekuly-1758362b3/)
+
+**Elouann Lucas**
+LinkedIn: [Elouann Lucas](https://www.linkedin.com/in/elouann-lucas/)
+
+**Joshua Mangotang**
+LinkedIn: [Joshua Owen Mangotang](https://www.linkedin.com/in/joshuaowm/)
