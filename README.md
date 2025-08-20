@@ -76,16 +76,21 @@ Example notebooks are provided in the notebooks directory
 
 Contributions are welcome ! Please feel free to submit a pull request.
 
-## Developer
+## Developers
 
-**Bruna Cândido**
-LinkedIn: [Bruna Strack Cândido](https://www.linkedin.com/in/brunascandido/)
+**Bruna Cândido** <br>
+LinkedIn: [Bruna Strack Cândido](https://www.linkedin.com/in/brunascandido/) <br>
+Email: brunscandido@gmail.com
 
-**Dastan Nurbekuly**    
-LinkedIn: [Dastan Nurbekuly](https://www.linkedin.com/in/dastan-nurbekuly-1758362b3/)
+**Dastan Nurbekuly** <br>
+LinkedIn: [Dastan Nurbekuly](https://www.linkedin.com/in/dastan-nurbekuly-1758362b3/) <br>
+Email: dastan.nurbek22@gmail.com
 
-**Elouann Lucas**
-LinkedIn: [Elouann Lucas](https://www.linkedin.com/in/elouann-lucas/)
+**Elouann Lucas** <br>
+LinkedIn: [Elouann Lucas](https://www.linkedin.com/in/elouann-lucas/) <br>
+Email: elouannlucas56@gmail.com
 
-**Joshua Mangotang**
-LinkedIn: [Joshua Owen Mangotang](https://www.linkedin.com/in/joshuaowm/)
+**Joshua Mangotang** <br>
+LinkedIn: [Joshua Owen Mangotang](https://www.linkedin.com/in/joshuaowm/) <br>
+Email: joshuaowen1500@gmail.com
+
