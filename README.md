@@ -1,8 +1,8 @@
-# Satellite Image Classification Model Comparison
+# 🛰️ Satellite Image Analysis Hub
 
 ## Overview
 
-This project provides a comprehensive toolkit for comparing different machine learning models on satellite image classification tasks. It supports analysis of Sentinel-2 imagery and includes multiple pre-trained models for comparison.
+This project is an AI-powered platform for rapid satellite and aerial image analysis. It enables users to instantly classify and segment images using multiple state-of-the-art pre-trained models, providing quick and actionable insights.
 
 ## Features
 
